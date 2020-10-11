@@ -31,7 +31,7 @@ fun binarySearch(A: Array<Int>, key: Int): Int{
     return -1
 }
 
-//быстрый поиск
+//быстрая сортировка
 fun quickSort(array: IntArray, low: Int, high: Int) {
     if (array.size == 0) return  //завершить выполнение, если длина массива равна 0
     if (low >= high) return  //завершить выполнение если уже нечего делить
